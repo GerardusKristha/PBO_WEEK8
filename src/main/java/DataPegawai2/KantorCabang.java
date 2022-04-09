@@ -70,6 +70,7 @@ public class KantorCabang {
     public Pegawai findPegawai(int id ){
         for(int i = 0 ; i<jumlahPegawai;i++){
                 if(pegawaiArray[i].getEmployeeID()==id){
+                    System.out.println("- Ditemukan -");
                     return pegawaiArray[i];
                 }
             }
@@ -80,6 +81,7 @@ public class KantorCabang {
     public Pegawai findPegawai(String nama ){
         for(int i = 0 ; i<jumlahPegawai;i++){
                 if(pegawaiArray[i].getName().equalsIgnoreCase(nama)){
+                   System.out.println("- Ditemukan -");
                    return pegawaiArray[i];
                 }
             }

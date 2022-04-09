@@ -15,7 +15,12 @@ public class Pegawai {
         this(210000,"-","-",0);    
     }
     public Pegawai( int employeeID,String name,String department,int gaji){
-        this.employeeID = employeeID;
+        if(employeeID<210000){
+            this.employeeID = 210000;
+        }
+        else {
+            this.employeeID = employeeID;
+        }
         this.name = name;
         this.department = department;
         this.gaji = gaji;
