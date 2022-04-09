@@ -60,12 +60,12 @@ public class KantorCabang_Main {
           
         Pegawai terkecil = kc.getPegawaiGajiTerkecil();
         System.out.println("-----------------------------\n"+
-                          "Keluarga terkecil jumlahnya \n" +terkecil+
-                          "-----------------------------");
+                          "Pegawai Gaji Terkecil\n" +terkecil+
+                          "\n-----------------------------");
         Pegawai terbesar = kc.getPegawaiGajiTerbesar();
         System.out.println("-----------------------------\n"+
-                          "Keluarga terkecil jumlahnya \n" +terbesar+
-                          "-----------------------------");             
+                          "Pegawai Gaji Terbesar\n" +terbesar+
+                          "\n-----------------------------");             
     }
         
 }
